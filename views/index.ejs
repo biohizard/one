@@ -1,0 +1,20 @@
+
+    <%- include('partials/header') %>
+
+    <h1>hola con Express</h1>
+    <ul>
+    <% products.forEach(p => { %>
+        <li>
+        <strong><%= p.name %></strong> - $<%= p.price %>
+        </li>
+    <% }) %>
+    </ul>
+    <ul>
+    <% products2.forEach(p => { %>
+        <li>
+        <strong><%= p.name %></strong> - $<%= p.price %>
+        </li>
+    <% }) %>
+    </ul>    
+<%- include('partials/footer') %>
+

@@ -1,0 +1,24 @@
+{
+  "name": "one",
+  "version": "1.0.0",
+  "description": "express tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Biohizard",
+  "license": "ISC",
+  "dependencies": {
+    "@colors/colors": "^1.6.0",
+    "ejs": "^3.1.10",
+  "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.10.3",
+    "nodemon": "^3.1.10"
+  }
+}
