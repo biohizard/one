@@ -10,9 +10,9 @@
   "author": "Biohizard",
   "license": "ISC",
   "dependencies": {
+    "express": "^5.1.0",
     "@colors/colors": "^1.6.0",
     "ejs": "^3.1.10",
-    "express": "^5.1.0",
     "morgan": "^1.10.1",
     "routes": "^2.1.0"
   },
