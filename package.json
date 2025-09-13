@@ -17,6 +17,11 @@
     "routes": "^2.1.0"
   },
   "devDependencies": {
+    "express": "^5.1.0",
+    "@colors/colors": "^1.6.0",
+    "ejs": "^3.1.10",
+    "morgan": "^1.10.1",
+    "routes": "^2.1.0",    
     "nodemon": "^3.1.10"
   }
 }
