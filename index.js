@@ -1,7 +1,7 @@
 const express = require('express')
 const colors  = require('@colors/colors')
 const morgan  = require('morgan')
-const routes  = require('./routes')
+const routes  = require('routes')
 
 const app = express()
 const port = 3000
